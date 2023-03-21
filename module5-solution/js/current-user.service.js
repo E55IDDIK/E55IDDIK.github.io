@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("admin").service("CurrentUserService",(function(){var n=this,e="",t="";n.saveToken=function(n,r){e=n,t=r},n.getUsername=function(){return e},n.getAccessToken=function(){return t},n.isAuthenticated=function(){return""!==t}}))}();

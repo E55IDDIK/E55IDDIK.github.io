@@ -1,0 +1,1 @@
+!function(){"use strict";function t(t){var e=this;e.$onInit=function(){t.getCategories().then((function(t){e.categories=t}))}}angular.module("admin").component("categoryList",{templateUrl:"src/admin/category/category-list.html",controller:t}),t.$inject=["MenuService"]}();
