@@ -1,0 +1,1 @@
+!function(){"use strict";function i(i){i.otherwise("/")}angular.module("restaurant",["public","admin"]).config(i),i.$inject=["$urlRouterProvider"]}();

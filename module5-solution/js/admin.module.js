@@ -1,0 +1,1 @@
+!function(){"use strict";function t(t,e){t.$on("$stateChangeStart",e.onStateChangeStart)}angular.module("admin",["ui.router","common","ngFileUpload"]).run(t),t.$inject=["$rootScope","AuthRedirectorService"]}();
