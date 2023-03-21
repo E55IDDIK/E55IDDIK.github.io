@@ -1,1 +1,0 @@
-!function(){"use strict";function t(t,e){this.category=t,this.menuItems=e.menu_items}angular.module("admin").controller("CategoryItemsController",t),t.$inject=["category","menuItems"]}();

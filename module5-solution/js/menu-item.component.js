@@ -1,1 +1,0 @@
-!function(){"use strict";function t(t){this.basePath=t}angular.module("public").component("menuItem",{templateUrl:"src/public/menu-item/menu-item.html",bindings:{menuItem:"<"},controller:t}),t.$inject=["ApiPath"]}();

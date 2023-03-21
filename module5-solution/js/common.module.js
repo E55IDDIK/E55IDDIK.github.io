@@ -1,1 +1,0 @@
-!function(){"use strict";function t(t){t.interceptors.push("loadingHttpInterceptor")}angular.module("common",[]).constant("ApiPath","https://www.davidchuschinabistro.com").config(t),t.$inject=["$httpProvider"]}();

@@ -1,1 +1,0 @@
-!function(){"use strict";function e(e){this.menuItems=e}angular.module("public").controller("MenuItemsController",e),e.$inject=["menuItems"]}();

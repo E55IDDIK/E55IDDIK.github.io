@@ -1,1 +1,0 @@
-!function(){"use strict";function n(n,t,e){this.logout=function(){e.isAuthenticated()&&t.logout(e.getAccessToken()).then((function(){e.saveToken("",""),n.path("/")}))}}angular.module("admin").controller("AdminAuthController",n),n.$inject=["$location","LoginService","CurrentUserService"]}();

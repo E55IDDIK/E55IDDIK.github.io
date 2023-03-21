@@ -1,1 +1,0 @@
-!function(){"use strict";function e(e,t){this.onStateChangeStart=function(n,i,a,r,o){0!==i.name.indexOf("admin.")||"admin.login"==i.name||t.isAuthenticated()||(n.preventDefault(),e.go("admin.login",{toState:i,toParams:a}))}}angular.module("admin").service("AuthRedirectorService",e),e.$inject=["$state","CurrentUserService"]}();

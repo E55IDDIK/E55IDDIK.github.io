@@ -1,1 +1,0 @@
-!function(){"use strict";function e(e){return{request:function(t){return e.isAuthenticated()&&(t.headers.Authorization="Bearer "+e.getAccessToken()),t}}}angular.module("admin").factory("authHttpInterceptor",e),e.$inject=["CurrentUserService"]}();
